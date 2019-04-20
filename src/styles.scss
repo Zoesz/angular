@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+$color: blue;
+
+body{
+  margin: 0;
+}
+
+.main-header {
+  padding-bottom: 50px;
+}
+.main-body {
+  margin: 8px
+}
+
+
+
+hr {
+  border: 0;
+  height: 1px;
+  background: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+//
+//.header.container {
+//  display: grid;
+//  grid-template-columns: repeat(6, 1fr);
+//
+//}
